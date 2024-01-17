@@ -1,4 +1,4 @@
-const getZones = require('../../Controllers/ZonesControllers/getZones');
+const getZones = require('../../Controllers/zonesControllers/getZones');
 
 module.exports=async(req,res)=>{
     try{

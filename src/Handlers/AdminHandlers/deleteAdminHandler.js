@@ -1,4 +1,4 @@
-const deleteAdminController = require('../../Controllers/AdminControllers/deleteAdminController');
+const deleteAdminController = require('../../Controllers/adminControllers/deleteAdminController');
 
 module.exports=async(req,res)=>{
     const {id} = req.params;
