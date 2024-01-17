@@ -2,7 +2,7 @@ const server = require("./src/server");
 const { conn } = require('./src/dataBase');
 
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 10000;
 
 conn.sync({ force: false }).then(() => {
 server.listen(port, () => {
