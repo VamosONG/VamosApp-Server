@@ -15,7 +15,7 @@ const cors = require("cors")
 //   });
 
 
-const router = require("./Routes/index");
+const router = require("./routes/index");
 
 const server = express();
 
