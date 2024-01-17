@@ -1,4 +1,4 @@
-const getAdminsController = require('../../Controllers/adminControllers/getAdminsController');
+const getAdminsController = require('../../controllers/adminControllers/getAdminsController');
 
 module.exports=async(req,res)=>{
     try{

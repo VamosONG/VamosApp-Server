@@ -1,4 +1,4 @@
-const postZone=require('../../Controllers/zonesControllers/postZone');
+const postZone=require('../../controllers/zonesControllers/postZone');
 
 module.exports=async(req,res)=>{
     const {name}=req.body;

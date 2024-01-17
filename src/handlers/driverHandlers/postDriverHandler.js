@@ -1,4 +1,4 @@
-const postDriver = require('../../Controllers/driversControllers/postDrivers');
+const postDriver = require('../../controllers/driversControllers/postDrivers');
 
 module.exports = async (req, res) => {
     const { name, surname, email, birthday, dni, phone, driverImg, airports, carType, carModel, driverLicense, carImg, carPatent, carSoat, circulationPermit, capacityPassengers } = req.body;
